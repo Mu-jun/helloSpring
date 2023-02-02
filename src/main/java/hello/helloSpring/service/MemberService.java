@@ -1,11 +1,10 @@
-package service;
+package hello.helloSpring.service;
 
 import java.util.List;
 import java.util.Optional;
 
-import domain.Member;
-import repository.MemberRepository;
-import repository.MemoryMemberRepository;
+import hello.helloSpring.domain.Member;
+import hello.helloSpring.repository.MemberRepository;
 
 public class MemberService {
 

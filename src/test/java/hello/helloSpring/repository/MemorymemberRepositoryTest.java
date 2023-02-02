@@ -7,8 +7,7 @@ import java.util.List;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
-import domain.Member;
-import repository.MemoryMemberRepository;
+import hello.helloSpring.domain.Member;
 
 public class MemorymemberRepositoryTest {
 
