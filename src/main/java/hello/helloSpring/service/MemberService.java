@@ -3,11 +3,14 @@ package hello.helloSpring.service;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.transaction.annotation.Transactional;
+
 // import org.springframework.stereotype.Service;
 
 import hello.helloSpring.domain.Member;
 import hello.helloSpring.repository.MemberRepository;
 
+@Transactional
 public class MemberService {
 
   private final MemberRepository memberRepository;
