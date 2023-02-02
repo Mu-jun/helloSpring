@@ -1,8 +1,7 @@
-package service;
+package hello.helloSpring.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.fail;
 
 import java.util.List;
 
@@ -12,7 +11,6 @@ import org.junit.jupiter.api.Test;
 
 import hello.helloSpring.domain.Member;
 import hello.helloSpring.repository.MemoryMemberRepository;
-import hello.helloSpring.service.MemberService;
 
 public class MemberServiceTest {
 
